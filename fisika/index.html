@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medan Magnet</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header id="navbar">
+        <nav>
+            <div class="logo">
+                <h1>Medan <span>Magnet</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#penjelasan">Penjelasan</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#tentang-kami">Tentang Kami</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+            <div class="sidebar" id="sidebar">
+                <div class="sidebar-header">Menu</div>
+                <div class="sidebar-links">
+                    <a href="#home" onclick="closeMenu()">Home</a>
+                    <a href="#penjelasan" onclick="closeMenu()">Penjelasan</a>
+                    <a href="#profile" onclick="closeMenu()">Profile</a>
+                    <a href="#tentang-kami" onclick="closeMenu()">Tentang Kami</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="home" class="home">
+        <div class="home-content" blog-grids-row>
+            <h1>Selamat Datang di Web Kami</h1>
+            <p>Dalam kesederhanaannya, medan magnet mampu menggerakkan alam semesta dan memberikan energi bagi teknologi modern</p>
+            <div><a href="#tentang-kami">Pelajari Lebih Lanjut</a></div>
+        </div>
+    </section>
+    <section id="penjelasan" class="content-section">
+        <div class="container">
+            <div class="content">
+                <div>
+                <h2>Penjelasan Medan Magnet</h2>
+                <div class="pengertian">
+                <h3>Pengertian Medan Magnet</h3>
+                <p>Medan magnet adalah wilayah di sekitar magnet yang masih memengaruhi benda dengan sifat-sifat magnetik. Mirip dengan gaya listrik, kita menganggap bahwa gaya magnetik disebabkan oleh keberadaan sesuatu, yaitu medan magnet. Ketika muatan bergerak, medan magnet terbentuk sebagai hasilnya, dan medan ini selanjutnya memberikan gaya pada muatan bergerak lainnya.
+                </p><br>
+                <p>Terdapat Interaksi Bahan dengan Medan Magnet, yaitu:</p>
+                <ol>
+                    <li>Feromagnetik : Bahan seperti besi, kobalt, dan nikel yang memiliki domain magnetik yang dapat diatur dan sangat responsif terhadap medan magnet eksternal.</li>
+                    <li>Paramagnetik : Bahan seperti aluminium, magnesium, dan oksigen yang memiliki momen magnetik yang lemah dan sedikit tertarik ke medan magnet eksternal.</li>
+                    <li>Diamagnetik : Bahan seperti tembaga, emas, dan air yang menunjukkan sifat menolak medan magnet dan menghasilkan medan magnet induksi yang berlawanan arah dengan medan magnet eksternal.</li>
+                </ol>
+                <h3>Proses Terbentuknya Medan Magnet</h3>
+                <p>Medan magnet terbentuk melalui pergerakan partikel bermuatan dalam suatu benda yang memiliki sifat magnetik. Ini dapat terjadi pada tingkat atomik saat elektron dalam atom bergerak mengelilingi inti atom. Elektron memiliki muatan negatif dan bergerak mengelilingi inti atom yang memiliki muatan positif. <br> 
+                Dalam materi ferromagnetik seperti besi dan nikel, atom-atom memiliki momen magnetik alami yang disebut spin. Ketika materi ferromagnetik ini dijepit dalam medan magnet eksternal, momen-momen magnetik atom-atom tersebut akan merata sehingga menghasilkan medan magnet yang kuat. Inilah mengapa benda-benda seperti besi dapat menjadi magnet setelah terpapar medan magnet eksternal.
+                Selain itu, medan magnet juga dapat dihasilkan oleh arus listrik yang mengalir melalui kawat. Ini dikenal sebagai elektromagnet. Ketika arus listrik mengalir melalui kawat, ia menciptakan medan magnet sepanjang kawat tersebut.</p>
+                
+                <h3>Prinsip Penggunaan</h3>
+                <p>Medan magnet memiliki empat jenis prinsip yang dapat menjelaskan karakteristiknya penggunaannya.</p>
+                <ol>
+                    <li>bahwa suatu medan magnet hanya menghasilkan arus listrik pada bagian tubuh dari magnet. 
+                    </li>
+                    <li>medan magnet yang dapat terpengaruh oleh arus listrik dapat menghasilkan gaya. Prinsip ini digunakan pada motor listrik. 
+                    </li>
+                    <li>tegangan listrik dapat dihasilkan pada medan magnet yang mengalami perpindahan penghantar listrik. Prinsip ini digunakan pada generator listrik.
+                    </li>
+                    <li>jumlah kumparan penghantar listrik menentukan lamanya waktu yang diperlukan untuk pertukaran suatu medan magnet.</li>
+                </ol>
+                <h3>Sifat Medan Magnet</h3>
+                <ol>
+                    <li>Medan magnet memiliki arah yang ditentukan oleh arah arus listrik atau gerakan partikel bermuatan.</li>
+                    <li>Medan magnet memiliki kekuatan yang dipengaruhi oleh kekuatan arus listrik dan jarak dari sumber medan magnet.</li>
+                    <li>Medan magnet dapat mempengaruhi dan dipengaruhi oleh benda-benda feromagnetik, seperti besi.</li>
+                </ol>
+                </div>
+                <div class="rumus">
+                <h3>Rumus Medan Magnet</h3>
+                <p>Berikut adalah beberapa rumus medan magnet yang penting:</p>
+                <h3>Medan Magnet Kawat Lurus Berarus</h3>
+                <img src="Blurus.jpg" class="custom_img">
+                <br><br>
+                <p>untuk jumlah N lilitan : </p>
+                <img src="BlurusN.png" class="custom_img">
+                <br>
+                <p>Dimana:
+                    <ul>
+                        <li>B = Kuat medan magnet</li>
+                        <li>μ₀ = Permeabilitas vakum (4π x 10⁻⁷ T m/A)</li>
+                        <li>N = Jumlah lilitan per satuan panjang</li>
+                        <li>I = Kuat arus listrik</li>
+                        <li>r = jarak titik ke kawat (m)</li>
+                    </ul>
+                </p><br>
+                
+                <h3>Medan Magnet Kawat Melingkar Berarus</h3>
+                <img src="Blingkar.png" class="custom_img">
+                <br><br>
+                <p>untuk jumlah N lilitan : </p>
+                <img src="BlingkarN.png" class="custom_img">
+                <br>
+                <p>Dimana:
+                    <ul>
+                        <li>B = Kuat medan magnet</li>
+                        <li>μ₀ = Permeabilitas vakum (4π x 10⁻⁷ T m/A)</li>
+                        <li>N = Jumlah lilitan per satuan panjang</li>
+                        <li>I = Kuat arus listrik</li>
+                        <li>r = jari-jari lingkaran (m)</li>
+                    </ul>
+                </p><br>
+                <h3>Medan Magnet di Dalam Solenoida</h3><br>
+                <p>pada pusat solenoida : </p>
+                <img src="solenoida_pusat.PNG" class="custom_img">
+                <br><br>
+                <p>pada ujung solenoida </p>
+                <img src="solenoida_ujung.PNG" class="custom_img">
+                <br>
+                <p>Dimana:
+                    <ul>
+                        <li>B = Kuat medan magnet</li>
+                        <li>μ₀ = Permeabilitas vakum (4π x 10⁻⁷ T m/A)</li>
+                        <li>N = Jumlah lilitan</li>
+                        <li>I = Kuat arus listrik (A)</li>
+                        <li>l = panjang solenoida (m)</li>
+                    </ul>
+                </p><br>
+
+                <h3>Medan Magnet pada Toroida</h3>
+                <img src="BlurusN.PNG" class="custom_img">
+                <br>
+                <p>Dimana:
+                    <ul>
+                        <li>B = Kuat medan magnet</li>
+                        <li>μ₀ = Permeabilitas vakum (4π x 10⁻⁷ T m/A)</li>
+                        <li>N = Jumlah lilitan</li>
+                        <li>I = Kuat arus listrik (A)</li>
+                        <li>r = jari-jari (m)</li>
+                    </ul>
+                
+                </div>
+                <br>
+                <h3>Penerapan Medan Magnet</h3>
+                <p>Berikut adalah 10 contoh penerapan medan magnet dalam kehidupan sehari-hari:</p>
+                <ol>
+                    <li>Kompas</li>
+                    <li>Motor listrik</li>
+                    <li>Generator listrik</li>
+                    <li>Magnet dalam pengeras suara</li>
+                    <li>Magnet dalam MRI (Magnetic Resonance Imaging)</li>
+                    <li>Transformator</li>
+                    <li>Pemindai barcode</li>
+                    <li>Hard disk komputer</li>
+                    <li>Televisi dan monitor CRT</li>
+                    <li>Magnet pada pintu lemari es</li>
+                </ol>
+                <h3>Contoh Soal</h3>
+                <p><strong>Soal:</strong> Sebuah kawat lurus panjang dialiri arus listrik sebesar 2 A. Hitung kuat medan magnet pada jarak 5 cm dari kawat tersebut.</p>
+                <p><strong>Pembahasan:</strong></p>
+                <p>Rumus yang digunakan: <strong>B = (μ₀ I) / (2π r)</strong></p>
+                <p>Diketahui:
+                    <ul>
+                        <li>μ₀ = 4π x 10⁻⁷ T m/A</li>
+                        <li>I = 2 A</li>
+                        <li>r = 0.05 m</li>
+                    </ul>
+                </p>
+                <p>Sehingga:
+                    <ul>
+                        <li>B = (4π x 10⁻⁷ x 2) / (2π x 0.05)</li>
+                        <li>B = (8π x 10⁻⁷) / (0.1π)</li>
+                        <li>B = 8 x 10⁻⁶ T</li>
+                    </ul>
+                </p>
+                <h3>Kesimpulan</h3>
+                <p>Medan magnet adalah konsep penting dalam fisika yang mempengaruhi banyak aspek kehidupan kita. Dari teori dasar hingga penerapan praktis, pemahaman tentang medan magnet membantu kita dalam inovasi teknologi dan berbagai penelitian ilmiah.</p><br>
+            </div>
+    
+    </section>
+    <section id="profile" class="content-section">
+        <div class="content">
+            <h2>Profile</h2>
+            <div id="profile-carousel" class="carousel">
+                <div class="carousel-item active">
+                    <div class="profile-card">
+                        <h3 align = "center">Bagas Satrio Nugroho <span>1IA24 | 50423254</span></h3>
+                        <p align = "justify">Sebagai insinyur elektronik, Bagas
+                            menerapkan konsep medan magnet dalam
+                            desain perangkat teknologi. Pengalamannya
+                            sangat berharga dalam inovasi teknis.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="profile-card">
+                        <h3 align = "center">Sylfi Perdana Putri <span>1IA24 | 51423418 </span></h3>
+                        <p align = "justify">Sebagai mahasiswa riset, Sylfi memfokuskan
+                            penelitiannya pada interaksi medan magnet
+                            dan materi. Dia berharap penelitiannya
+                            dapat berkontribusi pada penemuan baru.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="profile-card">
+                        <h3 align = "center">Hafshah Az-Zahra <span>1IA24 | 50423556</span></h3>
+                        <p align = "justify">Hafshah adalah peneliti geofisika yang fokus
+                            pada studi medan magnet bumi. Ia bekerja
+                            untuk mengungkap misteri medan geomagnetik
+                            dan dampaknya terhadap kehidupan kita.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="profile-card">
+                        <h3 align = "center">Farhan Aditya <span>1IA24 | 50423453</span></h3>
+                        <p align = "justify">Farhan adalah seorang guru fisika yang
+                            bersemangat menginspirasi siswa untuk
+                            menjelajahi dunia fisika. Ia menggunakan
+                            pendekatan kreatif untuk mengajar medan magnet.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="profile-card">
+                        <h3 align = "center">Muhammad Fabian Rachadityo <span>1IA24 | 50423820 </span></h3>
+                        <p align = "justify">Dengan gelar Ph.D. dalam Fisika, Dr. Fabian
+                            telah meneliti medan magnet selama lebih
+                            dari 20 tahun. Beliau berdedikasi untuk
+                            memahami dan mengajarkan fenomena magnetik.</p>
+                    </div>
+                </div>
+                <a class="prev" onclick="moveCarousel(-1)">&#10094;</a>
+                <a class="next" onclick="moveCarousel(1)">&#10095;</a>
+            </div>
+        </div>
+    </section>
+            <div id="comments-container">
+    <section id="tentang-kami" class="content-section">
+        <div class="content">
+            <div class="ttg_kami">
+                <h2>Tentang Kami</h2>
+                <p>Web ini dibuat sebagai upaya untuk memenuhi tugas mata pelajaran Fisika dengan tema "Medan Magnet." Tujuan utama dari pembuatan web ini adalah untuk memberikan pemahaman yang komprehensif dan mendalam tentang fenomena medan magnet kepada para siswa dan pengunjung. Melalui konten yang disajikan, kami berharap dapat membantu memperjelas konsep-konsep penting dalam medan magnet, seperti pengertian, sifat-sifat, rumus-rumus, dan penerapannya dalam kehidupan sehari-hari.</p><br>
+                <p>Kami, Kelompok 6 dari kelas 1IA24, telah berkolaborasi untuk menyusun materi yang informatif dan menarik, dilengkapi dengan gambar dan contoh soal untuk memudahkan pemahaman. Selain itu, web ini juga berfungsi sebagai media interaktif di mana pengunjung dapat berkomentar dan berdiskusi mengenai topik medan magnet.</p><br>
+                <p></p>Harapan kami, melalui web ini, para pengunjung tidak hanya dapat memenuhi kebutuhan akademis mereka, tetapi juga menemukan inspirasi dan ketertarikan lebih dalam terhadap ilmu fisika dan fenomena alam yang menakjubkan ini.</p>
+                    
+                <p>Terima kasih telah mengunjungi web kami.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="social-media">
+            <a href="https://instagram.com" class="instagram" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M7.465 1.066C8.638 1.012 9.012 1 12 1c2.988 0 3.362.013 4.534.066c1.172.053 1.972.24 2.672.511c.733.277 1.398.71 1.948 1.27c.56.549.992 1.213 1.268 1.947c.272.7.458 1.5.512 2.67C22.988 8.639 23 9.013 23 12c0 2.988-.013 3.362-.066 4.535c-.053 1.17-.24 1.97-.512 2.67a5.396 5.396 0 0 1-1.268 1.949c-.55.56-1.215.992-1.948 1.268c-.7.272-1.5.458-2.67.512c-1.174.054-1.548.066-4.536.066c-2.988 0-3.362-.013-4.535-.066c-1.17-.053-1.97-.24-2.67-.512a5.397 5.397 0 0 1-1.949-1.268a5.392 5.392 0 0 1-1.269-1.948c-.271-.7-.457-1.5-.511-2.67C1.012 15.361 1 14.987 1 12c0-2.988.013-3.362.066-4.534c.053-1.172.24-1.972.511-2.672a5.396 5.396 0 0 1 1.27-1.948a5.392 5.392 0 0 1 1.947-1.269c.7-.271 1.5-.457 2.67-.511m8.98 1.98c-1.16-.053-1.508-.064-4.445-.064c-2.937 0-3.285.011-4.445.064c-1.073.049-1.655.228-2.043.379c-.513.2-.88.437-1.265.822a3.412 3.412 0 0 0-.822 1.265c-.151.388-.33.97-.379 2.043c-.053 1.16-.064 1.508-.064 4.445c0 2.937.011 3.285.064 4.445c.049 1.073.228 1.655.379 2.043c.176.477.457.91.822 1.265c.355.365.788.646 1.265.822c.388.151.97.33 2.043.379c1.16.053 1.507.064 4.445.064c2.938 0 3.285-.011 4.445-.064c1.073-.049 1.655-.228 2.043-.379c.513-.2.88-.437 1.265-.822c.365-.355.646-.788.822-1.265c.151-.388.33-.97.379-2.043c.053-1.16.064-1.508.064-4.445c0-2.937-.011-3.285-.064-4.445c-.049-1.073-.228-1.655-.379-2.043c-.2-.513-.437-.88-.822-1.265a3.413 3.413 0 0 0-1.265-.822c-.388-.151-.97-.33-2.043-.379m-5.85 12.345a3.669 3.669 0 0 0 4-5.986a3.67 3.67 0 1 0-4 5.986M8.002 8.002a5.654 5.654 0 1 1 7.996 7.996a5.654 5.654 0 0 1-7.996-7.996m10.906-.814a1.337 1.337 0 1 0-1.89-1.89a1.337 1.337 0 0 0 1.89 1.89" clip-rule="evenodd"/></svg></a>
+            <a href="https://whatsapp.com" class="whatsapp"  target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none"><g clip-path="url(#akarIconsWhatsappFill0)"><path fill="currentColor" fill-rule="evenodd" d="M17.415 14.382c-.298-.149-1.759-.867-2.031-.967c-.272-.099-.47-.148-.669.15c-.198.297-.767.966-.94 1.164c-.174.199-.347.223-.644.075c-.297-.15-1.255-.463-2.39-1.475c-.883-.788-1.48-1.761-1.653-2.059c-.173-.297-.019-.458.13-.606c.134-.133.297-.347.446-.52c.149-.174.198-.298.297-.497c.1-.198.05-.371-.025-.52c-.074-.149-.668-1.612-.916-2.207c-.241-.579-.486-.5-.668-.51c-.174-.008-.372-.01-.57-.01c-.198 0-.52.074-.792.372c-.273.297-1.04 1.016-1.04 2.479c0 1.462 1.064 2.875 1.213 3.074c.149.198 2.095 3.2 5.076 4.487c.71.306 1.263.489 1.694.625c.712.227 1.36.195 1.872.118c.57-.085 1.758-.719 2.006-1.413c.247-.694.247-1.289.173-1.413c-.074-.124-.272-.198-.57-.347m-5.422 7.403h-.004a9.87 9.87 0 0 1-5.032-1.378l-.36-.214l-3.742.982l.999-3.648l-.235-.374a9.861 9.861 0 0 1-1.511-5.26c.002-5.45 4.436-9.884 9.889-9.884a9.81 9.81 0 0 1 6.988 2.899a9.825 9.825 0 0 1 2.892 6.992c-.002 5.45-4.436 9.885-9.884 9.885m8.412-18.297A11.815 11.815 0 0 0 11.992 0C5.438 0 .102 5.335.1 11.892a11.864 11.864 0 0 0 1.587 5.945L0 24l6.304-1.654a11.881 11.881 0 0 0 5.684 1.448h.005c6.554 0 11.89-5.335 11.892-11.893a11.821 11.821 0 0 0-3.48-8.413" clip-rule="evenodd"/></g><defs><clipPath id="akarIconsWhatsappFill0"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></g></svg></a>
+        </div>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#penjelasan">Penjelasan</a>
+            <a href="#profile">Profile</a>
+            <a href="#tentang-kami">Tentang Kami</a>
+        </div>
+        <p>Created by Kelompok 6 Medan Magnet 1IA24</p>
+    </footer>
+    <button id="scrollToTopBtn" onclick="scrollToTop()"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 16 16"><g fill="currentColor" fill-rule="evenodd"><path d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707L2.354 9.354a.5.5 0 1 1-.708-.708z"/><path d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/></g></svg></button>
+    </div>
+</body>
+</html>
